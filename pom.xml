@@ -1,8 +1,8 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>java_web_app</groupId>
-	<artifactId>java_web_app</artifactId>
+	<groupId>HelloWorld</groupId>
+	<artifactId>HelloWorld</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>HelloWorld Maven Webapp</name>
@@ -109,7 +109,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>http://172.26.223.150:8081/repository/maven-snapshots/</url>
+            <url>http://172.26.223.150:8081/repository/maven-snapshots/HelloWorld.war</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
